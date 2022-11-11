@@ -79,10 +79,10 @@ GROUP BY kode_prodi
 HAVING jml_sks BETWEEN 5 AND 10;
 
 -- Jumlah prodi pada setiap alamat yang jumlah alamat > 5
-SELECT alamat, COUNT(kode_prodi) AS jml_prodi
+SELECT alamat, COUNT(*) AS jml_alamat, COUNT(DISTINCT(kode_prodi)) AS total_prodi
 FROM mhs
 GROUP BY alamat
-HAVING jml_prodi > 5;
+HAVING jml_alamat > 5;
 
 -- ---------------
 -- Acara 35

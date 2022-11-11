@@ -101,7 +101,7 @@ SELECT kode_prodi, COUNT(*) AS jml_mhs
 FROM mhs
 GROUP BY kode_prodi
 HAVING jml_mhs < 3
-ORDER BY kdoe_prodi DESC;
+ORDER BY kode_prodi DESC;
 
 -- Jumlah > 4
 SELECT kode_prodi, COUNT(*) AS jml_mhs

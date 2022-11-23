@@ -1,7 +1,7 @@
 -- ---------------
 -- MySQL Script
 -- Workshop Basis Data
--- Praktikum Minggu 11
+-- Praktikum Minggu 12
 -- Politeknik Negeri Jember 2022
 -- ------------------
 -- By @irsyadulibad
@@ -112,7 +112,7 @@ ORDER BY `total_sks` DESC;
 
 
 -- ---------------
--- Acara 44
+-- Acara 43
 -- ---------------
 
 -- Menampilkan nama karyawan, alamat karyawan, nama bagian, dan total gaji menggunakan query JOIN
